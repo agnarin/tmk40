@@ -1,0 +1,1412 @@
+@import url(fonts.css);
+body{
+    padding: 0;
+    border: 0;
+    position: relative;
+    font-family: 'Sarabun';
+    width: 100%;
+    height: 100vh;
+    background-color: #795548;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+nav ul a {
+    color: #795548 !important;
+}
+#onepageMenu{
+    position: fixed;
+    top: 30%;
+    right: 5%;
+    width: 50px;
+    z-index: 999;
+}
+section{
+    display: block;
+    padding-top: 100px;
+    width: 100%;
+    height: 100%;
+}
+section#showHome{
+    height: 700px;
+}
+nav .sidenav-trigger{
+    float: right;
+}
+.headmenu{
+    display: inline-block;
+    width: 100%;
+    font-size: 16px;
+
+}
+.headmenu .row{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.headmenu i.material-icons{
+    margin-top: 5px;
+    font-size: 20px;
+    color: #ffffff;
+}
+.headmenu a{
+    color: #795548;
+}
+.carousel{
+    /*height: 65% !important;*/
+    height: 100% !important;
+}
+.carousel.carousel-slider .carousel-item{
+    /*min-height: 65% !important;*/
+    min-height: 100% !important;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.showComp{
+    position: absolute;
+    color: #795548 !important;
+    font-size: x-large;
+    top: -5px;
+    left: 500px;
+    font-weight: bold;
+
+}
+.ShowPhone{
+    display: inline-block;
+    float: right;
+    padding: 5px 25px;
+    font-size: 20px !important;
+    background-color: #795548;
+
+
+}
+.ShowPhone a {
+    color: #ffffff !important;
+}
+#showAboutus .text-header{
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    height: auto;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    color: #795548;
+}
+nav .brand-logo {
+    top: -35px;
+}
+
+nav ul a:hover {
+    background-color: rgba(0, 0, 0, 0);
+    text-decoration: underline;
+}
+nav ul a {
+    -webkit-transition: background-color .0s;
+    transition: background-color .0s;
+}
+.marg-50{
+    margin-top: 50px;
+}
+.imageSlideContainer {
+    display: block;
+    margin: 0px auto;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    position: relative;
+}
+.imageSlideHolder {
+    height: 100%;
+    display:flex;
+    align-item: center;
+}
+.imageSildeItself {
+    min-height: 600px;
+    width: 100%;
+    align-self: center;
+}
+#showServices,#showContactus{
+    background-color: #795548;
+    height: auto;
+}
+#showPortfolio{
+    height: auto;
+}
+
+#showServices .text-header,#showContactus .text-header,#showPortfolio .text-header{
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    height: auto;
+    font-size: 3rem;
+    text-align: center;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+#showPortfolio .text-header{
+    color: #795548;
+}
+.show-all-icon{
+    display: inline-block;
+    width: 100%;
+    min-height: 1px;
+    margin: 50px auto;
+}
+.list-icon{
+    display: block;
+    width: 50%;
+    height: auto;
+    margin: 0px auto;
+}
+.text-icon{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 2rem;
+    color: #FFFFFF;
+    text-align: center;
+}
+.img-icon{
+    display: block;
+    margin: 0px auto;
+}
+.text-comp{
+    color: #795548;
+}
+.imageContainer {
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    height: 150px;
+    overflow: hidden;
+    position: relative;
+}
+
+.imageContainer > .imgtxt{
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: auto;
+    padding: 10px 5px;
+    background-color: rgba(102,51,0,0.7);
+    color: #ffffff;
+    overflow: hidden;
+    display: none;
+}
+.imageHolder {
+    height: 100%;
+    display:flex;
+    align-item: center;
+}
+.imageItself {
+    min-height: 150px;
+    width: 100%;
+    align-self: center;
+}
+.imgGallery{
+    position: relative;
+}
+.show-icon-contact{
+    display: block;
+    margin: 20px auto;
+}
+.contact-company{
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+    color: #ffffff;
+}
+.contact-address{
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+    color: #ffffff;
+}
+.icon-contact-txt{
+    color: #ffffff;
+}
+@media only screen and (min-width: 240px){
+    #comp1{
+        display: none;
+    }
+    nav .brand-logo{
+        left: 15%;
+    }
+    section#showHome{
+        padding-top: 55px;
+        height: auto;
+    }
+    .showComp{
+        font-size: 1.15rem;
+        top: 0px;
+        left: 30%;
+        font-weight: bold;
+
+    }
+    nav .brand-logo img {
+        margin-top: 35px;
+        width: 75px;
+    }
+    .container{
+        width: 100%;
+    }
+    .carousel{
+        height: 180px !important;
+    }
+    .carousel.carousel-slider .carousel-item {
+        min-height: 180px !important;
+        width: 100%;
+    }
+    .carousel-item >img {
+        width: 320px;
+        height: 180px;
+    }
+    .imageSlideContainer {
+        height: 180px;
+    }
+    .imageSildeItself {
+        min-height: 180px;
+    }
+    .title-company-1{
+        font-size: 1.85rem;
+        margin: 25px auto;
+    }
+    .title-company-2{
+        font-size: 1.25rem;
+    }
+    .list-icon{
+        width: 100%;
+    }
+    .show-icon{
+        margin-bottom: 20px;
+    }
+    .border-img-icon{
+        width: 140px;
+        height: 140px;
+    }
+    .img-icon{
+        width: 50%;
+    }
+    .border-img-icon.active{
+        border: 2px solid #ffc107;
+    }
+    .title-welcome{
+        font-size: 1.5rem;
+    }
+    .descr-welcome{
+        font-size: 1.15rem;
+    }
+    .text-icon {
+        font-size: 0.85rem;
+    }
+    .linktocontact{
+        padding: 25px 10px;
+    }
+    .descript-company{
+        width: 95%;
+        display: block;
+        margin: 0px auto;
+    }
+    .page-about {
+        padding-top: 10px;
+    }
+    div.company-location > .row > .col.s4{
+        text-align: right;
+    }
+    div.company-location > .row > .col.s8{
+        text-align: left;
+    }
+    .text-company-name{
+        font-size: 1.15rem;
+    }
+    .list-about{
+        margin: 10px auto;
+    }
+    .tab-left {
+        padding-left: 15px;
+    }
+    .list-our-company {
+        padding: 0px 20px;
+    }
+    .list-about-icon {
+        padding: 0px 10px 20px 10px;
+    }
+    .img-about-icon{
+        margin: 20px auto;
+        width: 25%;
+    }
+    .show-xl-device{
+        display: none;
+    }
+    .show-vision {
+        margin: 25px auto;
+        padding: 10px;
+    }
+    .show-vision .about-vision-header {
+        padding-left: 20px;
+        margin-bottom: 15px;
+    }
+    .tab-left-2 {
+        padding-left: 20px;
+    }
+    .page-portfolio{
+        padding-top: 10px;
+    }
+    .page-contact {
+        padding-top: 10px;
+    }
+    .imageContainer {
+        height: 200px;
+    }
+    .imageItself {
+        min-height: 200px;
+    }
+    .picMap {
+        height: 350px;
+    }
+    #googleMap {
+        height: 350px;
+    }
+    .imageContainer >.imgtxt{
+        display: block;
+    }
+    .text-about-description-1{
+        padding: 10px;
+    }
+    .text-about-description-2{
+        padding: 10px;
+    }
+    .img-aboutus-icon{
+        display: block;
+        width: 50%;
+        padding: 0px;
+        margin: 0px auto 20px auto;
+    }
+    .list-about-description {
+        list-style: none;
+        margin-left: 25px;
+        color: #ffffff;
+    }
+    .list-about-description > li:before {
+        display: inline-block;
+        content: "-";
+        width: 1em;
+        margin-left: -1em;
+    }
+    .list-about-description > li{
+        margin: 5px 0px;
+    }
+    .about-icon-header{
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.15rem;
+        color: #616161;
+    }
+    .imageContactContainer{
+        height: 250px;
+    }
+    .imageContactItself{
+        min-height: 250px;
+    }
+    .contact-company{
+        font-size: 1.5rem;
+    }
+    .contact-address{
+        font-size: 1rem;
+    }
+    .icon-contact{
+        font-size: 1rem;
+    }
+    .icon-contact-img{
+        width: 100%;
+    }
+    .text-title-page{
+        font-size: 2rem;
+    }
+    .text-title-cctv{
+        font-size: 2rem;
+    }
+    .text-about-header{
+        font-size: 1.75rem;
+
+    }
+    .tele-icon {
+        min-height: 200px;
+        margin-bottom: 20px;
+    }
+    .tele-footer{
+        padding-left: 10px;
+    }
+    .border-cctv-icon{
+        height: 150px;
+    }
+    .cctv-head{
+        margin-top: 66px;
+    }
+    .show-product{
+        width: 75% !important;
+    }
+    .show-product-icon{
+        width: 80% !important;
+    }
+    .img-product-pdf{
+        display: block;
+        width: 100% !important;
+    }
+    .select-promotion{
+        min-height: 300px;
+    }
+    .text-promotion{
+        font-size: 0.85rem;
+    }
+    .product-details{
+        width: 90%;
+        font-size: 0.75rem;
+    }
+    .select-product{
+        min-height: 340px;
+    }
+    .text-price{
+        padding: 20px 0px;
+    }
+    .text-cctv-details{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .imageContainer-cctv {
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+    }
+    .imageItself-cctv {
+        min-height: 300px;
+        width: 100%;
+        align-self: center;
+    }
+    .footer-product {
+        min-height: 300px;
+    }
+    .cctv-to-contact{
+        padding: 0px;
+        height: 300px;
+    }
+    .cctv-contact-header {
+        font-size: 1.5rem;
+    }
+    .cctv-contact-details {
+        padding: 0px 10px;
+        font-size: 1rem;
+    }
+    .cctv-contact > .row > .tbtn.col.s6.m4 > .a-contact {
+        height: 40px;
+        font-size: 12px;
+        line-height: 40px;
+    }
+    .cctv-line{
+        font-size: 1.5rem;
+    }
+    .footer-product-details {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #showAboutus .text-header,#showServices .text-header,#showContactus .text-header,#showPortfolio .text-header{
+        font-size: 1.75rem;
+    }
+    section#showServices,section#showContactus,section#showPortfolio{
+        padding-top: 50px;
+    }
+    section#showAboutus{
+        height: auto;
+        padding-bottom: 50px;
+    }
+    #showAboutus h4{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .show-icon-contact{
+        width: 80%;
+    }
+
+}
+@media only screen and (min-width: 375px){
+    section#showHome{
+        padding-top: 55px;
+        height: auto;
+    }
+    .carousel{
+        height: 211px !important;
+        margin-top: 0px;
+    }
+    .carousel.carousel-slider .carousel-item {
+        min-height: 211px !important;
+        width: 100%;
+    }
+    .carousel-item >img {
+        width: 375px;
+        height: 211px;
+    }
+    .imageSlideContainer {
+        height: 211px;
+    }
+    .imageSildeItself {
+        min-height: 211px;
+    }
+    .title-company-1{
+        font-size: 2.5rem;
+        margin: 25px auto;
+    }
+    .title-company-2{
+        font-size: 1.75rem;
+    }
+    .border-img-icon{
+        width: 160px;
+        height: 160px;
+    }
+    .title-welcome{
+        font-size: 1.5rem;
+    }
+    .descr-welcome{
+        font-size: 1.15rem;
+    }
+    .text-icon {
+        font-size: 0.85rem;
+    }
+    .linktocontact{
+        padding: 25px 10px;
+    }
+    .descript-company{
+        width: 95%;
+        display: block;
+        margin: 0px auto;
+    }
+    .text-about-description-1{
+        padding: 10px 15px;
+    }
+    .text-about-description-2{
+        padding: 10px 15px;
+    }
+    .list-about-icon {
+        padding: 0px 20px 20px 20px;
+
+    }
+    .img-aboutus-icon{
+        display: block;
+        width: 50%;
+
+    }
+    .list-about-description {
+        list-style: none;
+        margin-left: 30px;
+    }
+    .list-about-description > li:before {
+        display: inline-block;
+        content: "-";
+        width: 1em;
+        margin-left: -1em;
+    }
+    .list-about-description > li{
+        margin: 5px 0px;
+    }
+    .about-icon-header{
+        text-align: center;
+        font-weight: bold;
+        font-size: 1.15rem;
+        color: #616161;
+    }
+    .imageContainer {
+        height: 250px;
+    }
+    .imageItself {
+        min-height: 250px;
+    }
+    .border-cctv-icon{
+        height: 160px;
+    }
+    .select-promotion{
+        min-height: 300px;
+    }
+    .text-promotion{
+        font-size: 0.85rem;
+    }
+    .product-details{
+        width: 90%;
+        font-size: 0.85rem;
+    }
+    .select-product{
+        min-height: 340px;
+    }
+    .text-price{
+        padding: 20px 0px;
+    }
+    .text-cctv-details{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .imageContainer-cctv {
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+    }
+    .imageItself-cctv {
+        min-height: 300px;
+        width: 100%;
+        align-self: center;
+    }
+    .footer-product {
+        min-height: 300px;
+    }
+    .cctv-to-contact{
+        padding: 0px;
+        height: 300px;
+    }
+    .cctv-contact-header {
+        font-size: 1.5rem;
+    }
+    .cctv-contact-details {
+        padding: 0px 10px;
+        font-size: 0.95rem;
+    }
+    .cctv-contact > .row > .tbtn.col.s6.m4 > .a-contact {
+        height: 40px;
+        font-size: 12px;
+        line-height: 40px;
+    }
+    .cctv-line{
+        font-size: 1.5rem;
+    }
+    .footer-product-details {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+}
+@media only screen and (min-width: 414px){
+    /*nav .brand-logo img {*/
+    /*margin: 10px auto;*/
+    /*width: 150px;*/
+    /*}*/
+    .carousel{
+        height: 233px !important;
+        /*margin-top: 66px;*/
+    }
+    .carousel.carousel-slider .carousel-item {
+        min-height: 233px !important;
+        width: 100%;
+    }
+    .carousel-item >img {
+        width: 414px;
+        height: 233px;
+    }
+    .imageSlideContainer {
+        height: 233px;
+    }
+    .imageSildeItself {
+        min-height: 233px;
+    }
+    .descript-company{
+        width: 100%;
+        display: block;
+        margin: 0px auto;
+    }
+    .list-icon{
+        width: 90%;
+    }
+    .img-icon{
+        width: 75%;
+    }
+    .picMap {
+        height: 500px;
+    }
+    #googleMap {
+        height: 500px;
+    }
+    .img-aboutus-icon{
+        width: 50%;
+        padding: 15px;
+    }
+    .border-cctv-icon{
+        height: auto;
+    }
+    #owl-2{
+        display: block;
+        margin: 30px auto;
+        width: 100%;
+        height: auto;
+    }
+    .owl-carousel .owl-nav .owl-prev,
+    .owl-carousel .owl-nav .owl-next,
+    .owl-carousel .owl-dot {
+        font-family: 'Material Icons';
+        font-size: 4rem;
+    }
+    .owl-nav {height:0;margin:0;}
+    .owl-carousel .owl-nav .owl-prev:before{
+        font-family: "Material Icons";
+        content: "\E5CB";
+        font-size: 4rem;
+        margin-left:16px;
+        position: absolute;
+        top: 40%;
+        left: 0px;
+        height: auto;
+        text-shadow: 0px 0px 5px rgba(0,0,0,0.1),
+        0px 0px 8px rgba(0,0,0,0.05),
+        0px 0px 12px rgba(0,0,0,0.05);
+    }
+    .owl-carousel .owl-nav .owl-next:after{
+        font-family: "Material Icons";
+        content: "\E5CC";
+        font-size: 4rem;
+        margin-right: 16px;
+        position: absolute;
+        top: 40%;
+        right: 0px;
+        height: 100%;
+        text-shadow: 0px 0px 5px rgba(0,0,0,0.1),
+        0px 0px 8px rgba(0,0,0,0.05),
+        0px 0px 12px rgba(0,0,0,0.05);
+    }
+}
+
+@media only screen and (min-width: 480px){
+    .carousel{
+        height: 270px !important;
+        /*margin-top: 66px;*/
+    }
+    .carousel.carousel-slider .carousel-item {
+        min-height: 270px !important;
+        width: 100%;
+    }
+    .carousel-item >img {
+        width: 480px;
+        height: 270px;
+    }
+    .imageSlideContainer {
+        height: 270px;
+    }
+    .imageSildeItself {
+        min-height: 270px;
+    }
+}
+@media only screen and (min-width: 601px){
+    #comp1{
+        display: block;
+    }
+    #comp2{
+        display: none;
+    }
+    nav, nav .nav-wrapper i, nav a.sidenav-trigger, nav a.sidenav-trigger i {
+        height: 100px;
+        line-height: 100px;
+    }
+    nav .brand-logo img {
+        margin-top: 35px;
+        width: 135px;
+    }
+    .text-company-name {
+        font-size: 1.25rem;
+    }
+    div.pic-list-about > .row > .col.m6 {
+        padding: 20px;
+    }
+    .list-about {
+        margin: 0px auto;
+    }
+    .ctrl-br{
+        display: none;
+    }
+    .carousel{
+        height: 338px !important;
+        /*margin-top: 66px;*/
+    }
+    .carousel.carousel-slider .carousel-item {
+        min-height: 338px !important;
+        width: 100%;
+    }
+    .carousel-item >img {
+        width: 601px;
+        height: 338px;
+    }
+    .imageSlideContainer {
+        height: 338px;
+    }
+    .imageSildeItself {
+        min-height: 338px;
+    }
+    .title-company-1{
+        font-size: 2.75rem;
+    }
+    .title-company-2{
+        font-size: 1.85rem;
+    }
+    .border-img-icon{
+        width: 180px;
+        height: 180px;
+    }
+    .title-welcome{
+        font-size: 1.75rem;
+    }
+    .descr-welcome{
+        font-size: 1.25rem;
+    }
+    .list-icon {
+        width: 60%;
+    }
+    .text-icon {
+        font-size: 1rem;
+    }
+    .linktocontact{
+        padding: 50px 0px;
+    }
+    .descript-company{
+        width: 95%;
+        display: block;
+        margin: 0px auto;
+    }
+    .page-about{
+        padding-top: 50px;
+    }
+    .page-portfolio{
+        padding-top: 50px;
+    }
+    .page-contact {
+        padding-top: 50px;
+    }
+    .img-about-icon{
+        margin: 0px auto;
+        width: 100%;
+    }
+    .list-about-icon > .row > .col.about-border {
+        padding: 10px;
+        border: 2px solid #ffc107;
+    }
+    div.company-location > .row > .col.l2{
+        text-align: right;
+    }
+    div.company-location > .row > .col.l10{
+        text-align: left;
+    }
+    .img-aboutus-icon{
+        width: 30%;
+        padding: 15px;
+    }
+    .about-icon-header{
+        text-align: center;
+        font-size: 1.25rem;
+        color: #616161;
+        padding: 0px;
+    }
+    .select-promotion{
+        min-height: 360px;
+    }
+    .text-promotion{
+        font-size: 0.85rem;
+    }
+    .product-details{
+        width: 90%;
+        font-size: 0.85rem;
+    }
+    .select-product{
+        min-height: 360px;
+    }
+    .text-price{
+        padding: 20px 0px;
+    }
+    .text-cctv-details{
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .imageContainer-cctv {
+        height: 300px;
+        overflow: hidden;
+        position: relative;
+    }
+    .imageItself-cctv {
+        min-height: 300px;
+        width: 100%;
+        align-self: center;
+    }
+    .footer-product {
+        min-height: 300px;
+    }
+    .cctv-to-contact{
+        padding: 0px;
+        height: 300px;
+    }
+    .cctv-contact-header {
+        font-size: 1.5rem;
+    }
+    .cctv-contact-details {
+        padding: 0px 10px;
+        font-size: 1.15rem;
+    }
+    .cctv-contact > .row > .tbtn.col.s6.m4 > .a-contact {
+        height: 40px;
+        font-size: 12px;
+        line-height: 40px;
+    }
+    .cctv-line{
+        font-size: 1.5rem;
+    }
+    .footer-product-details {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    #showAboutus span{
+        font-size: 1.25rem;
+    }
+    #showAboutus h4{
+        font-size: 1.5rem;
+    }
+    section#showServices,section#showContactus,section#showPortfolio{
+        padding-top: 100px;
+    }
+}
+@media only screen and (min-width: 768px){
+    section#showHome{
+        height: 530px;
+    }
+
+    #showAboutus h4{
+        font-size: 1.75rem;
+    }
+    .carousel{
+        height: 432px !important;
+        margin-top: 45px;
+    }
+    .carousel.carousel-slider .carousel-item {
+        min-height: 432px !important;
+        width: 100%;
+    }
+    .carousel-item >img {
+        width: 768px;
+        height: 432px;
+    }
+    .imageSlideContainer {
+        height: 432px;
+    }
+    .imageSildeItself {
+        min-height: 432px;
+    }
+    .imageContactContainer{
+        height: 350px;
+    }
+    .imageContactItself{
+        min-height: 350px;
+    }
+    .contact-company{
+        font-size: 1.75rem;
+    }
+    .contact-address{
+        font-size: 1.25rem;
+    }
+    .icon-contact{
+        font-size: 1.25rem;
+    }
+    .text-title-page{
+        font-size: 2.5rem;
+    }
+    .text-title-cctv{
+        font-size: 2.5rem;
+    }
+    .text-about-header{
+        font-size: 1.85rem;
+
+    }
+    .tele-icon {
+        min-height: 200px;
+        margin-bottom: 0px;
+    }
+    .tele-footer{
+        padding-left: 10px;
+    }
+    .show-product{
+        width: 350px !important;
+    }
+    .show-product-icon{
+        width: 350px !important;
+    }
+    .img-product-pdf{
+        display: block;
+        width: 48px !important;
+    }
+    .cctv-contact > .row > .tbtn.col.s6.m4 > .a-contact {
+        height: 50px;
+        font-size: 18px;
+        line-height: 50px;
+    }
+}
+@media only screen and (min-width: 1024px){
+    section#showHome {
+        height: auto;
+    }
+    nav .brand-logo {
+        left: 5%;
+    }
+    nav .brand-logo {
+        top: -15px;
+    }
+    .showComp {
+        top: -5px;
+        left: 25%;
+    }
+    nav .brand-logo img {
+        margin: 0px;
+        width: 135px;
+    }
+    .carousel{
+        height: 500px !important;
+        margin-top: 66px;
+    }
+    .carousel.carousel-slider .carousel-item {
+        min-height: 500px !important;
+        width: 100%;
+    }
+    .carousel-item >img {
+        width: 1024px;
+        height: 500px;
+    }
+    .imageSlideContainer {
+        height: 500px;
+    }
+    .imageSildeItself {
+        min-height: 500px;
+    }
+    .page-home{
+        padding-bottom: 0px;
+    }
+    .title-company-1{
+        font-size: 3rem;
+        margin: 50px 0px;
+    }
+    .title-company-2{
+        font-size: 1.85rem;
+    }
+    .border-img-icon{
+        width: 200px;
+        height: 200px;
+    }
+    .title-welcome{
+        font-size: 1.75rem;
+    }
+    .descr-welcome{
+        font-size: 1.25rem;
+    }
+    .list-icon {
+        width: 50%;
+    }
+    .text-icon {
+        font-size: 1rem;
+    }
+    .linktocontact{
+        padding: 75px 0px;
+    }
+    .tab-left {
+        padding-left: 50px;
+    }
+    .list-our-company {
+        padding: 20px 40px;
+    }
+    .list-about-icon {
+        padding: 50px 40px;
+    }
+    .img-about-icon{
+        margin: 0px auto;
+        width: 100%;
+    }
+    .show-xl-device{
+        display: inline;
+    }
+    .show-vision {
+        margin: 50px auto;
+        padding: 50px 10px;
+    }
+    .show-vision .about-vision-header {
+        padding-left: 40px;
+        margin-bottom: 25px;
+    }
+    .tab-left-2 {
+        padding-left: 40px;
+    }
+    .show-br{
+        display: none;
+    }
+    .img-aboutus-icon {
+        width: 20%;
+        padding: 15px;
+        margin: 0px auto;
+        /* float: right; */
+    }
+    .text-title-page{
+        font-size: 2.75rem;
+    }
+    .text-title-cctv{
+        font-size: 2.75rem;
+    }
+    .text-about-header{
+        font-size: 1.95rem;
+
+    }
+    .tele-icon {
+        min-height: 250px;
+
+    }
+    .tele-footer{
+        padding-left: 10px;
+    }
+    .cctv-head{
+        margin-top: 110px;
+    }
+    section#showAboutus {
+        height: auto;
+        padding-bottom: 200px;
+        padding-top: 50px;
+    }
+    #showAboutus span {
+        font-size: 1rem;
+    }
+    .marg-50{
+        margin-top: 100px;
+    }
+    section#showServices, section#showContactus, section#showPortfolio {
+        padding-top: 150px;
+    }
+    section#showServices{
+        padding-bottom: 200px;
+    }
+    section#showPortfolio{
+        padding-bottom: 250px;
+    }
+}
+@media only screen and (min-width: 1280px){
+    nav .brand-logo {
+        top: -20px;
+    }
+    .showComp {
+        font-size: 1.5rem;
+        top: 0px;
+        left: 30%;
+        font-weight: bold;
+    }
+    section#showHome {
+        padding-top: 140px;
+        height: auto;
+    }
+    .carousel{
+        height: 500px !important;
+        margin-top: 0px;
+    }
+    .carousel.carousel-slider .carousel-item {
+        min-height: 500px !important;
+        vertical-align: middle;
+        width: 100%;
+    }
+    .carousel-item >img {
+        display: flex;
+        width: 100%;
+        height: auto;
+    }
+    #slideProduct.carousel{
+        height: 450px !important;
+        margin-top: 30px;
+    }
+    #slideProduct.carousel.carousel-slider .carousel-item {
+        min-height: 450px !important;
+        vertical-align: middle;
+        width: 100%;
+    }
+    .imageSlideContainer {
+        height: 600px;
+    }
+    .imageSildeItself {
+        min-height: 600px;
+    }
+    .page-home{
+        padding-bottom: 100px;
+    }
+    .list-icon{
+        width: 50%;
+    }
+    .border-img-icon {
+        margin: 0px;
+        width: 250px;
+        height: 250px;
+    }
+    .title-company{
+        font-size: 2.28rem;
+    }
+    .page-home{
+        padding-bottom: 0px;
+    }
+    nav .brand-logo img {
+        margin: 20px auto;
+    }
+    .imageContainer {
+        height: 200px;
+    }
+    .imageItself {
+        min-height: 200px;
+    }
+    .imageContainer >.imgtxt{
+        display: none;
+    }
+    .imageContainer:hover > .imgtxt{
+        display: block;
+    }
+    .img-aboutus-icon {
+        width: 20%;
+        padding: 15px;
+        margin: 0px auto;
+        /* float: right; */
+    }
+    .list-about-icon {
+        margin-top: 100px;
+    }
+    .imageContactContainer{
+        height: 450px;
+    }
+    .imageContactItself{
+        min-height: 450px;
+    }
+    .contact-company{
+        font-size: 2rem;
+    }
+    .contact-address{
+        font-size: 1.15rem;
+    }
+    .icon-contact{
+        font-size: 1.15rem;
+    }
+    .text-title-page{
+        font-size: 3rem;
+    }
+    .text-title-cctv{
+        font-size: 3rem;
+    }
+    .text-about-header{
+        font-size: 2rem;
+
+    }
+    .select-promotion{
+        min-height: 480px;
+    }
+    .text-promotion{
+        font-size: 1rem;
+    }
+    .product-details{
+        width: 80%;
+        font-size: 1rem;
+    }
+    .select-product{
+        min-height: 480px;
+    }
+    .text-price{
+        padding: 20px 0px;
+    }
+    .text-cctv-details{
+        padding: 15px 0px;
+    }
+    .imageContainer-cctv {
+        height: 480px;
+        overflow: hidden;
+        position: relative;
+    }
+    .imageItself-cctv {
+        min-height: 480px;
+        width: 100%;
+        align-self: center;
+    }
+    .footer-product {
+        min-height: 480px;
+    }
+    .cctv-to-contact{
+        padding: 50px 0px;
+        height: 300px;
+    }
+    .cctv-contact-header {
+        font-size: 1.75rem;
+    }
+    .cctv-contact-details {
+        padding: 0px 10px;
+        font-size: 1.25rem;
+    }
+    .cctv-contact > .row > .tbtn.col.s6.m4 > .a-contact {
+        height: 60px;
+        font-size: 20px;
+        line-height: 54px;
+    }
+    .cctv-line{
+        font-size: 1.75rem;
+    }
+    .footer-product-details {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    section#showServices{
+        padding-bottom: 350px;
+    }
+    section#showPortfolio{
+        padding-bottom: 350px;
+    }
+    .about-icon-header {
+        font-size: 1.5rem;
+    }
+    #owl-2 {
+
+        margin-top: 150px;
+
+    }
+    .our-company{
+        margin-top: 100px;
+    }
+    .contact-company{
+        margin-top: 50px;
+    }
+    .show-icon-contact{
+        width: 60%;
+    }
+    .icon-contact-img{
+        width: 75%;
+    }
+}
+@media only screen and (min-width: 1600px){
+    .carousel{
+        height: 600px !important;
+        /*margin-top: 110px;*/
+    }
+    .carousel.carousel-slider .carousel-item {
+        min-height: 600px !important;
+        vertical-align: middle;
+        width: 100%;
+    }
+    .imageSlideContainer {
+        height: 600px;
+    }
+    .imageSildeItself {
+        min-height: 600px;
+    }
+    /*.carousel-item >img {*/
+        /*width: 100%;*/
+        /*height: auto;*/
+    /*}*/
+    /*.img-aboutus-icon{*/
+        /*width: 50%;*/
+        /*padding: 15px;*/
+        /*margin: 0px;*/
+        /*float: right;*/
+    /*}*/
+}
+@media only screen and (min-width: 1920px){
+    section#showServices{
+        padding-bottom: 0px;
+    }
+    /*section#showPortfolio{*/
+        /*padding-bottom: 0px;*/
+    /*}*/
+}
